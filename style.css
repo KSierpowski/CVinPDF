@@ -1,0 +1,232 @@
+@media screen and (max-width: 768px) and (max-height: 1086px) {
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        transition: all 0.3s ease-in-out;
+    }
+    body{
+        font-family: "Helvetica", sans-serif;
+        background-color: rgb(20, 20, 20);
+        overflow-x: hidden;
+
+    }
+    
+    .left_panel{
+        height: 1012px;
+        max-width: 225px;
+        background: rgba(117, 117, 117, 0.12);
+        border-radius: 0 16px 0 0;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.6px);
+        -webkit-backdrop-filter: blur(7.6px);
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        position: absolute;
+    }
+    
+    .left_panel .aboutme{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .left_panel .aboutme img{
+        width: 75%;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+    .left_panel .aboutme .info_section {
+        margin-left: 5px;
+
+    }
+    .left_panel .aboutme .info_section p{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        color: azure;
+        letter-spacing: 1.1px;
+    }
+    .left_panel .aboutme .info_section .phone img{
+        margin: 0;
+        max-width: 42px;
+        border: 1px solid grey;
+        border-radius: 100%;
+        background-color: #d5d5d5;
+        padding: 2px;
+    }
+    .left_panel .aboutme .info_section .mail img{
+        margin: 0;
+        max-width: 42px;
+        border: 1px solid grey;
+        border-radius: 100%;
+        background-color: #d5d5d5;
+        padding: 2px;
+    }
+
+    .left_panel .aboutme .info_section .social{
+        margin-top: 50px;
+    }
+    .left_panel .aboutme .info_section .social p{
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .left_panel .aboutme .info_section .social img{
+        margin-bottom: 2px;
+    }
+
+    .head{
+        margin-left: 225px; 
+        margin-bottom: 20px;
+    }
+    .head h1{
+        text-align: center;
+        color: azure;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .head p{
+        text-align: center;
+        color: azure;
+        font-size: 14px;
+        margin-left: 2px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+    }
+    .head hr{
+        width: 90%;
+        margin: auto;
+    }
+
+    .work_experience{
+        margin-left: 225px;
+        margin-bottom: 20px;
+    }
+    .work_experience h2{
+        text-align: center;
+        font-size: 30px;;
+        color: rgb(84, 180, 172);
+        margin-bottom: 20px;;
+    }
+    .work_experience .work_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .work_experience .work_container .work{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .work_experience .work_container .work img{
+        max-width: 80px;
+        padding:10px
+    }
+    .work_experience .work_container .work p{
+        text-align: center;
+        color: azure;
+        font-size: 14px;
+        margin-right:4px;
+    }
+    .work_experience hr{
+        width: 90%;
+        margin: auto;
+    }
+
+    .skills{
+        margin-left: 225px;
+        margin-bottom: 15px;
+        text-decoration: none;
+  
+    }
+    .skills h3{
+        text-align: center;
+        font-size: 30px;;
+        color: rgb(84, 180, 172);
+        margin-bottom: 15px;
+    }
+    .skills h4,h5{
+        text-align: center;
+        font-size: 20px;;
+        color: rgb(84, 180, 172);
+        margin-bottom: 15px;;
+    }
+    .skills ul{
+        list-style: none;
+    }
+    .skills_container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .skills p{
+        text-align: center;
+        color: azure;
+        font-size: 16px; 
+    }
+    .skills hr{
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .courses_container{
+        margin-left: 225px;
+        margin-bottom: 15px;
+    }
+    .courses_container h6{
+        text-align: center;
+        font-size: 30px;;
+        color: rgb(84, 180, 172);
+        margin-bottom: 15px;
+    }
+    .courses_container ul{
+        
+        list-style: none;
+    }
+
+    .courses_container p{
+        text-align: left;
+        margin-left: 5px;
+        color: azure;
+        font-size: 13px; 
+        margin-bottom: 5px;;
+    }
+    .last_info .language{
+        margin-bottom: 50px;
+    }
+    .last_info .language img{
+        margin: 0;
+        max-width: 42px;
+        border: 1px solid grey;
+        border-radius: 100%;
+        background-color: #d5d5d5;
+        padding: 2px;
+    }
+    .last_info .school img{
+        margin: 0;
+        max-width: 42px;
+        border: 1px solid grey;
+        border-radius: 100%;
+        background-color: #d5d5d5;
+        padding: 2px;
+    }
+    
+    .rodo{
+        max-width: 100%;
+        background-color: rgba(117, 117, 117, 0.12);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.6px);
+        -webkit-backdrop-filter: blur(7.6px);
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        height: 80px;
+        padding: 5px;
+        position: fixed;
+    }
+    .rodo p{
+        font-size: 12px;
+        color:azure;
+        text-align: center;
+        padding: 5px;
+    }
+    .follow_me{
+        margin-bottom: 50px;
+    }
+    
+}
