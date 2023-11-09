@@ -176,7 +176,7 @@
         color: rgb(84, 180, 172);
         margin-bottom: 15px;
     }
-    .courses_container ul{
+    .courses_container li{
         
         list-style: none;
     }
